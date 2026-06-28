@@ -1,0 +1,73 @@
+body{
+    font-family: Arial, sans-serif;
+    background-color:#f2f2f2;
+    margin:0;
+}
+
+header{
+    background-color:blue;
+    color:white;
+    text-align:center;
+    padding:20px;
+}
+
+nav{
+    background-color:#333;
+    text-align:center;
+    padding:10px;
+}
+
+nav a{
+    color:white;
+    text-decoration:none;
+    margin:15px;
+}
+
+nav a:hover{
+    color:yellow;
+}
+
+main{
+    width:60%;
+    margin:auto;
+    background:white;
+    padding:20px;
+}
+
+form{
+    border:1px solid black;
+    padding:20px;
+}
+
+label{
+    font-weight:bold;
+}
+
+input[type=text],
+input[type=email],
+select,
+textarea{
+    width:100%;
+    padding:8px;
+    margin-top:5px;
+    margin-bottom:10px;
+}
+
+input[type=submit]{
+    background-color:blue;
+    color:white;
+    padding:10px 20px;
+    border:none;
+}
+
+input[type=submit]:hover{
+    background-color:green;
+}
+
+footer{
+    background-color:#333;
+    color:white;
+    text-align:center;
+    padding:15px;
+    margin-top:20px;
+}

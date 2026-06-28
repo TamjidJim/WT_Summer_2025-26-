@@ -1,0 +1,102 @@
+
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Student Service Request Portal</title>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="labtask2.css">
+</head>
+
+<body>
+
+<header>
+    <h1>Student Service Request Portal</h1>
+    <p>Submit your service request here.</p>
+</header>
+
+<nav>
+    <a href="#">Home</a>
+    <a href="#">Services</a>
+    <a href="#">Contact</a>
+</nav>
+
+<main>
+
+    <section>
+
+        <h2>Available Services</h2>
+
+        <p>
+            Students can request transcripts, ID cards and submit
+            general inquiries using this portal.
+        </p>
+
+    </section>
+
+    <section>
+
+        <h2>Service Request Form</h2>
+
+        <form>
+
+            <label>Student Name</label><br>
+            <input type="text" required>
+
+            <br><br>
+
+            <label>Student ID</label><br>
+            <input type="text" maxlength="10" required>
+
+            <br><br>
+
+            <label>Email</label><br>
+            <input type="email" required>
+
+            <br><br>
+
+            <label>Service Type</label><br>
+
+            <select>
+                <option>Transcript Request</option>
+                <option>ID Card Issue</option>
+                <option>General Inquiry</option>
+            </select>
+
+            <br><br>
+
+            <label>Urgency Level</label><br>
+
+            <input type="radio" name="urgency"> Low
+
+            <input type="radio" name="urgency"> Medium
+
+            <input type="radio" name="urgency"> High
+
+            <br><br>
+
+            <label>Additional Details</label><br>
+
+            <textarea rows="4" cols="30"></textarea>
+
+            <br><br>
+
+            <input type="submit" value="Submit">
+
+        </form>
+
+    </section>
+
+</main>
+
+<footer>
+    <p>&copy; 2026 Student Affairs Department</p>
+</footer>
+
+</body>
+
+</html>
+```
